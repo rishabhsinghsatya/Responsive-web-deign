@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+
+    <title>Rishabh profile</title>
+  </head>
+
+  <body>
+    <!--navbar-->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark m-2">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SATYA's</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ContactUs</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  MORE HERE
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Experiences</a></li>
+                  <li><a class="dropdown-item" href="#">Learnings</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">VISIT satya's coder</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Job Opportunities</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--buttons link-->
+    <div class="container text-center my-4">
+      <a href=""><span class="badge bg-primary">GALLERY</span></a>
+      <a href=""><span class="badge bg-success">SOCIAL MEDIA</span></a>
+      <a href=""><span class="badge bg-success">QUALIFICATION</span></a>
+      <a href=""><span class="badge bg-primary">PROJECTS</span></a>
+    </div>
+
+    <!--carousel -->
+    <div class="container">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner carousel-fade">
+          <div class="carousel-item active">
+            <img src="4.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Welcome to our profile</h4>
+
+              <h2 class="text-black">RISHABH SINGH SATYA</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Welcome to our profile</h4>
+
+              <h2>RISHABH SINGH SATYA</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Welcome to our profile</h4>
+
+              <h2>RISHABH SINGH SATYA</h2>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--dp front photo-->
+    <div class="container my-4 text-center">
+      <div class="container">
+        <img src="rishabh.jpg" width="400" height="300" alt="#" />
+        <div class="text-block text-center border-dark">
+          <h2>RISHBAH SINGH SATYA</h2>
+          <h4>Bachelor of Technology</h4>
+          <h6>(Computer Science Engineering)</h6>
+        </div>
+      </div>
+    </div>
+    <!--notification butto-->
+    <div class="container my-3">
+      <button type="button" class="btn btn-success">
+        NEW <span class="badge bg-primary">9</span>
+        <span class="visually-hidden">unread messages</span>
+      </button>
+    </div>
+
+    <!--about courses-->
+    <div class="container my-4">
+      <div class="card-group">
+        <div class="card">
+          <img src="web.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Web Developer</h5>
+            <p class="card-text">This is a wider c.</p>
+            <a href="#">
+              <p class="card-text">
+                <small class="text-muted">Read more....</small>
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="card mx-3">
+          <img src="android.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Android Developer</h5>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <a href="#">
+              <p class="card-text">
+                <small class="text-muted">Read more....</small>
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="backend.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Web Apps</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+            <a href="#">
+              <p class="card-text">
+                <small class="text-muted">Read more....</small>
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-4">
+      <div class="card-group">
+        <div class="card">
+          <img src="python.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">PYTHON</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#">
+              <p class="card-text">
+                <small class="text-muted">Read more....</small>
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="card mx-3">
+          <img src="php.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">PHP</h5>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <a href="#">
+              <p class="card-text">
+                <small class="text-muted">Read more....</small>
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="c.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">C/C++</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+            <a href="#">
+              <p class="card-text">
+                <small class="text-muted">Read more....</small>
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--about gallery and project-->
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-warning">Gallery...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-warning">Project...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--for header-->
+    <div class="container">
+      <div class="card text-center">
+        <div class="card-header bg-success text-white">
+          Copyright © 2020-2021 by @ Er.Rishabh Singh Satya
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Powered by SATYA's Web Developer</h5>
+          <p class="card-text">
+            This site is very helpful for college going student. Who wanna
+            become a Software Enggineer.
+          </p>
+          <a href="#" class="btn btn-primary">Back to top</a>
+        </div>
+        <div class="card-footer text-light bg-dark">2 days ago</div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
